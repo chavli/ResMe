@@ -1,0 +1,68 @@
+/* em = px/16
+px	em
+---------------------
+18	1.125
+15	0.9375
+14.5	0.90625
+14	0.875
+13.5	0.84375
+13	0.8125
+12.5 0.78125
+12	0.75
+11.2	0.7
+*/
+
+body{
+	font-size: 100%;
+}
+
+@font-face{
+	font-family: Sawasdee;
+	src: url('/public/fonts/Sawasdee.ttf');
+}
+
+@font-face{
+	font-family: Sawasdee-Bold;
+	src: url('/public/fonts/Sawasdee-Bold.ttf');
+}
+
+.pageTitle{
+	font-family: Sawasdee, Arial, sans-serif;
+	font-size: 0.9375em; /*size 18*/
+	font-weight: bold;
+}
+
+.headerText{
+	font-family: Sawasdee-Bold, Arial, sans-serif;
+	font-size: 0.875em; 
+}
+
+.normalText{
+	font-family: Sawasdee, Arial, sans-serif;
+	font-size: 0.78125em; 
+}
+
+.boldNormalText{
+	font-family: Sawasdee-Bold, Arial, sans-serif;
+	font-size: 1em; 
+}
+
+.minorText{
+	font-family: Sawasdee, Arial, sans-serif;
+	font-size: 0.75em; 
+}
+
+.footerText{
+	font-family: Sawasdee, Arial, sans-serif;
+	color: gray;
+	font-size: 0.7em; 
+}
+
+/*
+.fieldLabel{
+	font-family: Sawasdee-Bold, Arial, sans-serif;
+	font-size: 0.875em; 
+}
+*/
+
+

@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<link rel='stylesheet' href='/public/css/fonts.css' type='text/css' media='screen'/>
+		<link rel='stylesheet' href='/public/css/pagelayout.css' type='text/css' media='screen'/>
+		<script type='text/javascript' src='/public/js/jquery-core-1.5.js'></script>
+		<script type='text/javascript' src='/public/js/widgets/Widget.js'></script>
+		<script type='text/javascript' src='/public/js/widgets/CommentBox.js'></script>
+		<script type='text/javascript' src='/public/js/widgets/ThumbContainer.js'></script>
+		<script type='text/javascript' src='/public/js/widgets/TextElement.js'></script>
+		<script type='text/javascript' src='/public/js/widgets/UrlElement.js'></script>
+		<script type='text/javascript'>
+			$(function(){
+				var callback = function(){ $(this).css({background: "#fff7ab"});  };
+				var callback2 = function(){ $(this).css({background: "#fff"});  };
+				
+				/*
+				//create first comment box
+				var foo = $(document.createElement('div'));
+				foo.commentbox();
+				var bar = foo.data("commentbox");
+				bar.onMouseEnter(callback);
+				bar.onMouseExit(callback2);
+				bar.setTitle("this is the first title");
+				bar.setBody("this is the first body");
+				var lol = bar.prepare();
+				$("#foo").append(lol);
+				
+				//create second comment box
+				var foo = $(document.createElement('div'));
+				foo.commentbox();
+				var bar = foo.data("commentbox");
+				bar.onMouseEnter(callback);
+				bar.onMouseExit(callback2);
+				bar.setTitle("this is the second title");
+				bar.setBody("this is the second body");
+				var lol = bar.prepare();
+				$("#foo").append(lol);
+				*/
+
+				var foo = $(document.createElement('div')).thumbcontainer("http://i.imgur.com/IGQmi.jpg");
+				foo = foo.data("thumbcontainer");
+				foo.setUrlElem("test url", "http://www.google.com");
+				foo.setTextElems("first line", "second line");
+				$("#foo").append(foo.prepare());
+					
+
+				var foo = $(document.createElement('div')).thumbcontainer("http://i.imgur.com/IGQmi.jpg");
+				foo = foo.data("thumbcontainer");
+				foo.setUrlElem("test url", "http://www.google.com");
+				foo.setTextElems("first line", "second line");
+
+				$("#foo").append(foo.prepare());
+
+				console.log("fin2");
+
+
+				
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id='foo' style='width: 200px;'></div>
+	</body>
+</html>

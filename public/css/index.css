@@ -1,0 +1,58 @@
+body{
+	background:#ffcc33;
+}
+
+#login{
+	margin-top:20px;
+}
+
+#register{
+	margin-top:20px;
+}
+
+#logo{
+	position:relative;
+	width: 500px;
+	height: 195px;
+	/*text-align: center;*/
+}
+
+#buttons, #login, #register{
+	position:relative;
+	width: 500px;
+	text-align: center;
+}
+
+input[type=text] { 
+	border: 1px Gray solid;
+} 
+
+input[type=password] { 
+	border: 1px Gray solid;
+} 
+
+
+#siteMenu{
+	position: relative;
+	top: -20px;
+	float: right;
+	text-align:right;
+	z-index:	1;
+}
+#siteMenu li{	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+#siteMenu li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 0px 10px;
+	width: 80px;
+	background: #ffcc33;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+}

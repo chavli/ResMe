@@ -1,0 +1,58 @@
+/*editaccount.php page layout*/
+#registerHeader{
+	position: relative;
+	height: 30px;
+	vertical-align: middle;
+	z-index:	1;
+	/*background: green;
+	border-width: 1px;
+	border-bottom-style: solid;*/
+
+}
+
+#registerBody{
+	position: relative;
+	min-width: 1180px;
+	max-width: 1180px;
+	z-index:	1;
+	background: #fff;
+	left: 10px;
+	/*height:370px;*/
+	border: 1px solid Gray;
+	margin-top:10px;
+}
+
+#leftContainer{
+	position: absolute;
+	min-width: 550px;
+	max-width: 550px;
+	/*height: 410px;*/
+	top: 10px;
+	z-index:	1;
+	/*background: red;*/
+}
+
+#rightContainer{
+	position: absolute;
+	min-width: 570px;
+	max-width: 570px;
+	/*height: 410px;*/
+	top: 10px;
+	left: 610px;
+	z-index:	1;
+	/*background: blue;*/
+}
+
+label{
+	float:left;
+	width:180px;
+	padding-top:5px;
+	padding-left:10px;
+}
+
+#output{
+	position:relative;
+	margin-top:10px;
+	margin-left:10px;
+	padding: 5px;
+}

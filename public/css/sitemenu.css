@@ -1,0 +1,60 @@
+body {
+  background-color: #ffd966; 
+}
+
+#menu{
+  position: absolute;
+  width: 3.2em;
+  background: white;
+  padding: 0.2em 1.25em;
+  text-align: center;
+  border-right: solid 1px Gray;
+}
+
+#info{
+  position: absolute;
+  left: 5.5em;
+  width: 30em;
+  padding: 0.2em 1.25em;
+}
+
+#logo{
+  position: absolute;
+  display: inline;
+  top: 0em;
+  right: 0em;
+}
+
+.shadowed{
+  -moz-box-shadow: -0.35em 0.35em 0.35em  #c3a23d;
+  -webkit-box-shadow: -0.35em 0.35em 0.35em #c3a23d;
+  box-shadow: -0.35em 0.35em 0.35em  #c3a23d;
+}    
+
+/* testing site menu*/
+
+#siteMenu{
+	position: absolute;
+	top:1.6em;
+	left: -0.1em;
+}
+
+#siteMenu div{
+	/* visibility: hidden; */
+	background: #EAEBD8;
+	border: 1px solid Gray;
+}
+
+#siteMenu div a{
+	display: block;
+	padding: 0.35em 0.7em;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background: #fff;
+	color: #000;
+}
+
+/* end testing site menu*/
+    

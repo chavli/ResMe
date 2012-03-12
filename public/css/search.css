@@ -1,0 +1,98 @@
+/*search.php page layout*/
+#searchHeader{
+	position: relative;
+	height: 30px;
+	vertical-align: middle;
+	z-index:	1;
+	color: #fff;
+	/*background: green;*/
+	/*border-width: 1px;
+	border-bottom-style: solid;*/
+
+}
+
+#searchBody{
+	position: relative;
+	min-width: 1200px;
+	max-width: 1200px;
+	left: 10px;
+	z-index:	1;
+}
+
+#leftContainer{
+	position: absolute;
+	width:1160px;
+	top: 10px;
+	z-index:	1;
+	border: 1px solid Gray;
+	background: #fff;
+	padding:10px;
+	/*background: red;*/
+}
+
+#leftContainer a{
+	/*text-decoration: none;*/
+	color: black;
+	/*font-size:24px;*/
+}
+
+#leftContainer img{
+	position:relative;
+	width:200px;
+	border:1px solid Gray;
+}
+
+#rightContainer{
+	position: absolute;
+	min-width: 330px;
+	max-width: 330px;
+	height: 10px;
+	top: 10px;
+	left: 870px;
+	z-index:	1;
+	/*background: blue;*/
+}
+
+.searchResult{
+	position:relative;
+	width:1160px;
+	height:270px;
+	margin-top:10px;
+}
+
+.searchForm{
+	position:relative;
+	width:1160px;
+	height:270px;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+select.fieldInput{
+  position:relative;
+  left:10px;
+  width:400px;
+  height: 100px;
+  /*background:blue;*/
+}
+
+input.fieldInput{
+  position:relative;
+  left:10px;
+  width:400px;
+  height: 120px;
+  /*background:blue;*/
+}
+
+span.fieldInput{
+	position: relative;
+	left: 10px;
+}
+
+
+label.fieldLabel{
+  float:left;
+  width:140px;
+	padding-top:5px;
+}
+

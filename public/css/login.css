@@ -1,0 +1,54 @@
+/*login.php page layout*/
+#loginHeader{
+	position: relative;
+	height: 30px;
+	vertical-align: middle;
+	z-index:	1;
+	color: #fff;
+	/*background: green;
+	border-width: 1px;
+	border-bottom-style: solid;*/
+
+}
+
+#loginBody{
+	position: relative;
+	min-width: 1180px;
+	max-width: 1180px;
+	left: 10px;
+	/*height: 140px;*/
+	border: 1px solid Gray;
+	background: #fff;
+	margin-top:10px;
+	z-index:	1;
+
+}
+
+#leftContainer{
+	position: absolute;
+	min-width: 300px;
+	/*max-width: 300px;*/
+	/*height: 400px;*/
+	top: 10px;
+	left: 10px;
+	z-index:	1;
+	/*background: red;*/
+}
+
+#rightContainer{
+	position: absolute;
+	min-width: 600px;
+	max-width: 600px;
+	height: 10px;
+	top: 10px;
+	/*left: */
+	z-index:	1;
+	/*background: blue;*/
+}
+
+
+#output{
+	position:relative;
+	margin-top:10px;
+	padding: 5px;
+}

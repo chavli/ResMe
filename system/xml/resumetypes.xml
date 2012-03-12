@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resumetypes>
+	<resumetype>Internship</resumetype>
+	<resumetype>Cooperative Education (Co-Op)</resumetype>
+	<resumetype>Entry Level Professional (less than 3 years)</resumetype>
+	<resumetype>Experienced Professional (3-9 years)</resumetype>
+	<resumetype>Seasoned Professional (10+ years)</resumetype>
+</resumetypes>

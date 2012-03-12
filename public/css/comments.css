@@ -1,0 +1,49 @@
+/*comments.php page layout*/
+#commentHeader{
+	position: relative;
+	height: 30px;
+	vertical-align: middle;
+	z-index:	1;
+	color: #fff;
+	/*background: green;
+	border-width: 1px;
+	border-bottom-style: solid;*/
+
+}
+
+#commentBody{
+	position: relative;
+	min-width: 1180px;
+	max-width: 1180px;
+	z-index:	1;
+	left: 10px;
+	height:1300px;
+	border: 1px solid Gray;
+	background: #fff;
+	margin-top: 10px;
+}
+
+#leftContainer{
+	position: absolute;
+	min-width: 850px;
+	max-width: 850px;
+	height: 10px;
+	top: 10px;
+	z-index:	1;
+	/*background: red;*/
+}
+
+#rightContainer{
+	position: absolute;
+	min-width: 300px;
+	max-width: 300px;
+	height: 10px;
+	top: 10px;
+	left: 870px;
+	z-index:	1;
+	/*background: blue;*/
+}
+
+#resPages img:hover{
+	cursor:pointer;
+}

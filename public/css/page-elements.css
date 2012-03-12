@@ -1,0 +1,8 @@
+/*templates for common css elements used throughout resme*/
+
+/*standard text "bubble" white background, Gray border */
+.textBubble{
+	background:	white;
+	border:1px solid Gray;
+	padding:10px;
+}

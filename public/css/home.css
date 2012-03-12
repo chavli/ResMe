@@ -1,0 +1,91 @@
+/*home.php page layout*/
+
+#homeHeader{
+	left: 7em;
+	height: 30px;
+	vertical-align: middle;
+	z-index:	1;
+	color: #fff;
+}
+
+#homeBody{
+	position: relative;
+	min-width: 1180px;
+	max-width: 1180px;
+	z-index:	1;
+	left: 10px;
+	top: 10px;
+}
+
+#leftContainer{
+	position: absolute;
+	min-width: 1050px;
+	max-width: 1050px;
+	top: 10px;
+	z-index:	1;
+	bottom:10px;
+}
+
+div.verticalTabs{
+	width: 8em;
+	z-index: 2;
+}
+
+div.verticalTabs .tab{
+	text-decoration: none;
+	background: #fff; 
+	width: 8em;
+ 	cursor: pointer;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+input.fieldInput{
+	position:relative;
+	left:10px;
+	width:800px;
+}
+
+label.fieldLabel{
+	float:left;
+	width:100px;
+	padding-top:5px;
+	padding-left:10px;
+}
+
+span.mdata{
+	padding-right:5px;
+}	
+
+#tabContainer{
+	position: absolute;
+	left: 7em;
+	width: 100%;
+	background: #fff;
+}
+
+#tabContents{
+	position: absolute;
+	width: 100%;
+	overflow: auto;
+}
+
+#submissionForm{
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+}
+
+.resumeThumbContainer{
+	display:	inline-block;
+	text-align:	center;
+	margin: 20px;
+}
+
+.resumeThumb{
+	display: block;
+	border: solid 1px Gray;
+	width: 160px;
+}
+
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<professions>
+  <profession>Architecture</profession>
+  <profession>Arts, Design, Entertainment, Sports, and Media</profession>
+  <profession>Building and Grounds Cleaning and Maintenance</profession>
+  <profession>Business and Financial Operations</profession>
+  <profession>Community and Social Services</profession>
+  <profession>Computer and Mathematical Science</profession>
+  <profession>Construction and Extraction</profession>
+  <profession>Education and Training</profession>
+  <profession>Engineering</profession>
+  <profession>Farming, Fishing, and Forestry</profession>
+  <profession>Food Preparation and Serving Related</profession>
+  <profession>Healthcare Practitioner and Technical</profession>
+  <profession>Healthcare Support</profession>
+  <profession>Installation, Maintenance, and Repair</profession>
+  <profession>Legal</profession>
+  <profession>Life, Physical, and Social Science</profession>
+  <profession>Management</profession>
+  <profession>Office and Administrative Support</profession>
+  <profession>Personal Care and Service</profession>
+  <profession>Production</profession>
+  <profession>Professor</profession>
+  <profession>Protective Service</profession>
+  <profession>Researcher</profession>
+  <profession>Sales and Related</profession>
+  <profession>Transportation and Material Moving</profession>
+</professions>

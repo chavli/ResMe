@@ -1,0 +1,75 @@
+/*editaccount.php page layout*/
+#editAccountHeader{
+	position: relative;
+	height: 30px;
+	vertical-align: middle;
+	z-index:	1;
+	color: #fff;
+	/*background: green;
+	border-width: 1px;
+	border-bottom-style: solid;*/
+
+}
+
+#editAccountBody{
+	position: relative;
+	min-width: 1180px;
+	max-width: 1180px;
+	z-index:	1;
+	/*background:yellow;*/
+	left: 10px;
+	/*height:450px;*/
+	border: 1px solid Gray;
+	background: #fff;
+	margin-top:10px;
+}
+
+#leftContainer{
+	position: absolute;
+	min-width: 600px;
+	max-width: 600px;
+	/*height: 410px;*/
+	top: 10px;
+	z-index:	1;
+	/*background: red;*/
+}
+
+#rightContainer{
+	position: absolute;
+	min-width: 570px;
+	max-width: 570px;
+	/*height: 410px;*/
+	top: 10px;
+	left: 610px;
+	z-index:	1;
+	/*background: blue;*/
+}
+
+input.fieldInput{
+	position:relative;
+	left:10px;
+	width:200px;
+	/*background:blue;*/
+}
+
+select.fieldInput{
+	position:relative;
+	left:10px;
+	width:400px;
+	height: 120px;
+	/*background:blue;*/
+}
+
+label.fieldLabel{
+	float:left;
+	width:130px;
+	padding-top:5px;
+	padding-left:10px;
+}
+
+#output{
+	position:relative;
+	margin-top:10px;
+	margin-left:10px;
+	padding: 5px;
+}

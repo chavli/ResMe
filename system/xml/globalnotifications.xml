@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+messages here will be displayed on every user's homepage.
+we should also have a way of auto publishing things to this xml file
+xml format:
+<notification>
+	<date></date>
+	<message></message>
+<notification>
+
+-->
+
+<notifications>
+	<notification>
+		<date>February 7, 2011</date>
+		<message>
+			Welcome to the Alpha Release of ResMe!! We're glad you could join us. Before you go off and start clicking buttons&lt;br&gt;
+			and messing with features, you should check out these pages first:&lt;br&gt;
+			&lt;br&gt;The first, and most important, page you should check out is your &lt;a href='/privacy/'&gt;Privacy Settings&lt;/a&gt; page. With this, you can decide how&lt;br&gt;
+			people interact with your profile.&lt;br&gt;
+			&lt;br&gt;The second thing you should check out is our &lt;a href='#'&gt;About&lt;/a&gt; page, where you can learn about what ResMe is and what we can do&lt;br&gt;for you.&lt;br&gt;
+      &lt;br&gt;Some other pages you'll find useful:
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href='/editprofile/'&gt;Profile Settings&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href='/editresumes/'&gt;Resume Management&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+		</message>
+	</notification>
+
+  <notification>
+    <date>February, 8, 2011</date>
+    <message>Testing the XML parser.</message>
+  </notification>
+
+	<notification>
+		<date>dsafsdf</date>
+		<message>
+Wow, It's been a  long time since the last update. A lot of things have been changed as well as new
+features being added! Hopefully I can list all the important ones here:
+&lt;br&gt;
+&lt;br&gt;
+The homepage has been redesigned to make it easier for you to access specific things that might
+interest you. Moving your mouse over the tabs on the left side and clicking them will let you change 
+what is being displayed here. A brief explanation for each tab is provided below:
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;ResMe News&lt;/b&gt; -- Any ResMe updates or deicsions that effect you will show up here. Be sure to check this 
+often to stay on top of changes to ResMe!&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Notifications&lt;/b&gt; -- Interactions between other ResMe users and you will be posted here.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;User Articles&lt;/b&gt; -- This section is designed specifically for ResMe users to share articles they find about
+  the Economy, or the Job Market. You can also use this to share any advice you have.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Explore Resumes&lt;/b&gt; -- Resumes which we think might interest you are listed here. Maybe they're popular 
+	resumes, or resumes in the same professoin as you either way, there might be something to learn.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Your Stack&lt;/b&gt; -- These are the resumes that you've chose to save.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;br&gt;
+	Another new feature that's been added is saving other people's resumes to your "stack". At the top of each profile
+	is a button that will let you add or remove resumes from your stack. This is a convenient way
+	to save resumes that you think are useful so you can easily look them up at a later time. You'll be notified of any 
+	changes to resumes in your stack.
+	&lt;br&gt;
+	&lt;br&gt;
+	The &lt;a href="/privacy/"&gt;Privacy Settings&lt;/a&gt; page has also been improved to be clearer and give you  more control 
+	over how your resume is accessed. Be sure to check it out!
+		</message>
+	</notification>
+
+</notifications>
